@@ -156,6 +156,21 @@ node_modules/
 package-lock.json
 
 # ============================================================================
+# Workflow Artifacts (Generated Code - Review Before Committing)
+# ============================================================================
+# Generated code goes to workflow/artifacts/ for review
+# Move to main codebase after validation
+
+workflow/artifacts/vhdl/*
+!workflow/artifacts/vhdl/.gitkeep
+
+workflow/artifacts/tests/*
+!workflow/artifacts/tests/.gitkeep
+
+workflow/artifacts/logs/*
+!workflow/artifacts/logs/.gitkeep
+
+# ============================================================================
 # Project-Specific Exclusions
 # ============================================================================
 # Add your project-specific ignores below this line
